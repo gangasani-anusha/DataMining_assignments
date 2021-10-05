@@ -1,1 +1,1 @@
-# DataMining_assignments
+# DataMining_Assignments
