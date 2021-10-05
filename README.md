@@ -15,9 +15,9 @@ Import the netflix dataset from google drive by mounting the gdrive
 
 Analyze the Null values and the data types of the dataset
 
-Replace the null values with the custom data and also we can fill them with the nearest values without changing the basic statistics
+Replace the null values of coulmns director and cast with the value "Other Director", "Other Cast" respectively  and also we can fill them with the nearest values without changing the basic statistics
 
-Change the data types from string to numeric if required
+Change the data types from string to numeric
 
 ### **Step3: Data Pre-processing**
 
@@ -29,7 +29,7 @@ Analyze the data, add the columns and separate the data within the columns by ad
 
 Plot a graph to predict the outilers of dataset
 
-Remove the data from the dataset based on the outliers analysis and store them in a new dataset
+Remove the data from the dataset based on the outlier analysis and store them in a new dataset
 
 ### **Step4: Visualisation**
 
@@ -49,7 +49,7 @@ strip and pairplots. Below are the plots:
 
 6. Number of Shows released in 10 Countries
 
-7. Shows an thier released years using Strip
+7. Shows and thier released years using Strip
 
 8. Genres of Shows
 
@@ -61,15 +61,15 @@ strip and pairplots. Below are the plots:
 
 **Scikit-Learn with Linear Regression:**
 
-Select a model to instantiate for storing values. Then add the data to number of matricies and apply model to data to generate the slope, intercept. With that evaluate the efficiency of the model by comparing it to a baseline developed with slope and intercept.
+Select a model to instantiate for storing values. Then add the data to number of matricies and apply model to data to generate the slope, intercept. With that, evaluate the efficiency of the model by comparing it to a baseline developed with slope and intercept.
 
 **Scikit-Learn Classification with Gaussian naive Bayes model:**
 
-Exract the required data in the form of matrix and separate the data into a training and testing set by changing the random state. Apply the Gaussian navie Bayels model to calculate the accuracy. Now apply confusion matrix to compute the scikit learn and plot seaborn
+Exract the required data in the form of matrix and separate the data into a training and testing set. Apply the Gaussian navie Bayels model to calculate the accuracy. Now apply confusion matrix to compute the scikit learn and plot seaborn
 
 **Cosine Similarity:**
 
-Build a vectorizer which removes all the stop words in english and store it in a matrix. From that extract the cosine similarity matrix and reset the index of the dataset. Now get the recommendations data by passing a column of data and cosine similarity data.
+Build a vectorizer which removes all the stop words in english and store it in a matrix. From that, extract the cosine similarity matrix and reset the index of the dataset. Now we can extract similar data by passing a column of data and cosine similarity data.
 
 
 
